@@ -1,6 +1,7 @@
 body{
-	padding: 5em;
+	padding: 3em;
 	font-family: 'Ubuntu', sans-serif;
+	display: block;
 	}
 	
 img{
@@ -16,9 +17,9 @@ img{
 	}
 	
 .menu{
+	position: relative;
 	text-align: center;
 	}
-
 .menu li{
 	display:inline;
 	padding: 1em;
@@ -38,8 +39,8 @@ a:hover{
 	}
 	
 .footer{
-	position: fixed;
-	left:45%;
-	bottom: 1em;
+	position: relative;
+	left:%;
+	bottom: -1em;
 	text-align: center;
 	}
