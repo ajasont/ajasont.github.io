@@ -1,0 +1,45 @@
+body{
+	padding: 5em;
+	font-family: 'Ubuntu', sans-serif;
+	}
+	
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+.title{
+	padding: ;
+	font-size: 3em;
+	text-align: center;
+	}
+	
+.menu{
+	text-align: center;
+	}
+
+.menu li{
+	display:inline;
+	padding: 1em;
+	}
+
+p{
+	padding: 5em;
+	}
+	
+a{
+	/*color:#000000;*/
+	color:rgb(86,131,205);
+	text-decoration:none;
+	}
+a:hover{
+	background-color:;
+	}
+	
+.footer{
+	position: fixed;
+	left:45%;
+	bottom: 1em;
+	text-align: center;
+	}
