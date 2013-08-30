@@ -1,46 +1,45 @@
 body{
-	padding: 3em;
-	font-family: 'Ubuntu', sans-serif;
 	display: block;
+	font-family: 'Armata', sans-serif;
+	background-color:#FFFDF4;
+	color:black;
 	}
 	
 img{
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left:auto;
+	margin-right:auto;
 	}
 	
 .title{
-	padding: ;
-	font-size: 3em;
-	text-align: center;
+	font-size:2em;
+	text-align:center;
+	padding:1em;
+	letter-spacing:0.1em;
 	}
 	
 .menu{
-	position: relative;
-	text-align: center;
+	position:relative;
+	bottom:-4em;
+	text-align:center;
 	}
 .menu li{
 	display:inline;
-	padding: 1em;
-	}
-
-p{
-	padding: 5em;
+	padding:1.5em;
 	}
 	
 a{
-	/*color:#000000;*/
-	color:rgb(86,131,205);
+	color:#000000;
 	text-decoration:none;
 	}
 a:hover{
-	background-color:;
+	color:firebrick;
+	text-decoration:underline;
+	font-weight:bold;
 	}
 	
 .footer{
 	position: relative;
-	left:%;
-	bottom: -1em;
+	bottom: -8em;
 	text-align: center;
 	}

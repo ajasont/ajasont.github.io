@@ -1,6 +1,6 @@
-ajasont
+Repository for personal website
 =======
 This repository is a collection of files I made for my personal website (andyjtran.com) on my free time.
-I wanted a place to apply and experiment with the HTML, CSS, and when I am ready the Javascript that I had been learning online.
+I wanted a place to practice and experiment with HTML and CSS.
 
-last updated 26 August 2013
+last updated 30 August 2013
