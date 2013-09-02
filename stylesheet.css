@@ -1,45 +1,66 @@
+html{
+	font-size:100%
+	}
+
 body{
+	font-size: 1em;
 	display: block;
 	font-family: 'Armata', sans-serif;
-	background-color:#FFFDF4;
-	color:black;
+	background-color: #FFFDF4;
+	color: black;
 	}
 	
 img{
 	display: block;
-	margin-left:auto;
-	margin-right:auto;
+	margin: auto;
+	max-width: 50em;
+	width: 100%;
+	height: auto;
 	}
+
+a{
+	color: #000000;
+	text-decoration: none;
+	}
+a:hover{
+	color: firebrick;
+	font-weight: bold;
+	}	
+	
+/* Class Styles */	
 	
 .title{
-	font-size:2em;
-	text-align:center;
-	padding:1em;
-	letter-spacing:0.1em;
+	font-size: 2em;
+	text-align: center;
+	padding: 1em;
+	letter-spacing: 0.1em;
 	}
 	
 .menu{
-	position:relative;
-	bottom:-4em;
-	text-align:center;
+	position: relative;
+	text-align: center;
 	}
 .menu li{
-	display:inline;
-	padding:1.5em;
+	display: inline;
+	padding: 1.5em;
 	}
-	
-a{
-	color:#000000;
-	text-decoration:none;
-	}
-a:hover{
-	color:firebrick;
-	text-decoration:underline;
-	font-weight:bold;
+.menu a:hover{
+	color: firebrick;
+	text-decoration: underline;
+	font-weight: bold;
+	transition: color 0.5s ease-in-out;
 	}
 	
 .footer{
 	position: relative;
-	bottom: -8em;
+	bottom: -4em;
 	text-align: center;
+	}
+
+/* ID styles */
+
+#about{
+	padding: 3em;
+	max-width: 50em;
+	margin: auto;
 	}
