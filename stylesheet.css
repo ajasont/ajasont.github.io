@@ -23,8 +23,8 @@ a{
 	text-decoration: none;
 	}
 a:hover{
-	color: firebrick;
 	font-weight: bold;
+	text-decoration: underline;
 	}	
 	
 /* Class Styles */	
@@ -35,6 +35,9 @@ a:hover{
 	padding: 1em;
 	letter-spacing: 0.1em;
 	}
+.title:hover{
+	font-weight: bold;
+	}
 	
 .menu{
 	position: relative;
@@ -43,12 +46,6 @@ a:hover{
 .menu li{
 	display: inline;
 	padding: 1.5em;
-	}
-.menu a:hover{
-	color: firebrick;
-	text-decoration: underline;
-	font-weight: bold;
-	transition: color 0.5s ease-in-out;
 	}
 	
 .footer{

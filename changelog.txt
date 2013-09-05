@@ -3,6 +3,7 @@ Change Log for andyjtran.com
 
 ****************************
 
+5 September 2013: Made W3C compliant and updated design
 2 September 2013: Restructured header and added styling to, updated content on, and renamed multiple pages
 
 ****************************
