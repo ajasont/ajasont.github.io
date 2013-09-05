@@ -1,13 +1,14 @@
 html{
-	font-size:100%
+	font-size: 100%;
+	max-width: 1080px;
+	margin: auto;
 	}
 
 body{
-	font-size: 1em;
-	display: block;
 	font-family: 'Armata', sans-serif;
 	background-color: #FFFDF4;
 	color: black;
+	position: relative;
 	}
 	
 img{
@@ -23,35 +24,44 @@ a{
 	text-decoration: none;
 	}
 a:hover{
-	font-weight: bold;
-	text-decoration: underline;
+	color:#B31B1B;
 	}	
+a:active{
+	color:#B31B1B;
+	}
 	
 /* Class Styles */	
 	
 .title{
 	font-size: 2em;
 	text-align: center;
-	padding: 1em;
 	letter-spacing: 0.1em;
+	border-bottom: 0.1em solid;
 	}
 .title:hover{
-	font-weight: bold;
+	color:#B31B1B;
 	}
 	
 .menu{
-	position: relative;
-	text-align: center;
+	margin: 0 auto;
+	text-align:center;
 	}
 .menu li{
-	display: inline;
-	padding: 1.5em;
+	display: inline-block;
+	list-style: none;
+	letter-spacing: .1em;
+	padding: 1em;
+	}
+.menu li em{
+	font-size: .5em;
+	display: block;
 	}
 	
 .footer{
-	position: relative;
-	bottom: -4em;
 	text-align: center;
+	}
+.footer small{
+	font-size: .5em;
 	}
 
 /* ID styles */
