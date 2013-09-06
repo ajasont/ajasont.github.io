@@ -1,5 +1,6 @@
 html{
-	max-width: 1080px;
+	font-size: 100%;
+	max-width: 100em;
 	margin: auto;
 	}
 
@@ -8,13 +9,6 @@ body{
 	font-family: Carme;
 	}
 	
-img{
-	display: block;
-	margin: auto;
-	max-width: 67.5em;
-	height: auto;
-	}
-
 a{
 	color: #000000;
 	text-decoration: none;
@@ -23,14 +17,19 @@ a:hover{
 	color:#B31B1B;
 	transition: color 0.2s ease-in-out;
 	}	
+
+footer{
+	text-align: center;
+	}	
 	
 /* Class Styles */	
 	
 .title{
+	padding: 0.5em;
 	font-size: 3em;
 	text-align: center;
 	letter-spacing: 0.1em;
-	border-bottom: 0.01em solid;
+	border-bottom: 0.05em solid;
 	}
 .title:hover{
 	color:#B31B1B;
@@ -54,10 +53,6 @@ a:hover{
 	font-family: Georgia;
 	}
 	
-.footer{
-	text-align: center;
-	}
-
 /* ID styles */
 
 #about{
