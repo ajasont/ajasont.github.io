@@ -3,6 +3,7 @@ Change Log for andyjtran.com
 
 ****************************
 
+6 September 2013: Font style changes to homepage.
 5 September 2013: Made W3C compliant and updated design of homepage.
 2 September 2013: Restructured header and added styling to, updated content on, and renamed multiple pages
 

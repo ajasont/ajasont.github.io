@@ -1,21 +1,17 @@
 html{
-	font-size: 100%;
 	max-width: 1080px;
 	margin: auto;
 	}
 
 body{
-	font-family: 'Armata', sans-serif;
-	background-color: #FFFDF4;
-	color: black;
-	position: relative;
+	padding: 2em;
+	font-family: Carme;
 	}
 	
 img{
 	display: block;
 	margin: auto;
-	max-width: 50em;
-	width: 100%;
+	max-width: 67.5em;
 	height: auto;
 	}
 
@@ -25,43 +21,41 @@ a{
 	}
 a:hover{
 	color:#B31B1B;
+	transition: color 0.2s ease-in-out;
 	}	
-a:active{
-	color:#B31B1B;
-	}
 	
 /* Class Styles */	
 	
 .title{
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
 	letter-spacing: 0.1em;
-	border-bottom: 0.1em solid;
+	border-bottom: 0.01em solid;
 	}
 .title:hover{
 	color:#B31B1B;
+	transition: color 0.2s ease-in-out;
 	}
 	
 .menu{
-	margin: 0 auto;
-	text-align:center;
+	margin-top: -0.25em;
+	font-size: 1.5em;
+	text-align: center;
+	list-style: none;
+	letter-spacing: .1em;
 	}
 .menu li{
 	display: inline-block;
-	list-style: none;
-	letter-spacing: .1em;
 	padding: 1em;
 	}
 .menu li em{
-	font-size: .5em;
+	font-size: 0.5em;
 	display: block;
+	font-family: Georgia;
 	}
 	
 .footer{
 	text-align: center;
-	}
-.footer small{
-	font-size: .5em;
 	}
 
 /* ID styles */
