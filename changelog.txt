@@ -3,7 +3,7 @@ Change Log for andyjtran.com
 
 ****************************
 
-7 September 2013: Added standard header to all Tier 2 pages
+7 September 2013: Added animations to homepage and about and standard header to all Tier 2 pages
 6 September 2013: Design changes to homepage
 5 September 2013: Made W3C compliant and updated design of homepage
 2 September 2013: Restructured header and added styling to, updated content on, and renamed multiple pages
