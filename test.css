@@ -1,6 +1,6 @@
 html{
 	font-size:100%;
-	max-width:80em;
+	max-width:92em;
 	margin:auto;
 	}
 
@@ -29,8 +29,8 @@ footer{
 
 img{
 	margin:auto;
-	width:20em;
-    display:block
+	width:auto;
+    height:auto;
 }
 
 div#divider{
@@ -58,7 +58,7 @@ div#divider{
 .menu li{
 	display:inline-block;
 	padding:1em;
-    width:10em;
+    width:8em;
 	}
 .menu li em{
 	font-size:0.5em;
@@ -77,7 +77,6 @@ div#divider{
     height:6em;
 }
 
-
 /* ID styles */
 
 #about{
@@ -86,7 +85,7 @@ div#divider{
 	margin:auto;
 	}
 
-/*  Animation   */
+/*Animations*/
 .stretchOut{
 	animation-name: stretchOut;
 	-webkit-animation-name: stretchOut;	
@@ -136,4 +135,67 @@ div#divider{
 	100% {
 		-webkit-transform: scaleX(1);
 	}		
+}
+
+.pullDown{
+	animation-name: pullDown;
+	-webkit-animation-name: pullDown;	
+
+	animation-duration: 2.25s;	
+	-webkit-animation-duration: 2.25s;
+
+	animation-timing-function: ease-out
+	-webkit-animation-timing-function: ease-out;	
+
+	transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	-webkit-transform-origin: 50% 0%; 		
+}
+
+@keyframes pullDown {
+	0% {
+		transform: scaleY(0);
+	}
+	40% {
+		transform: scaleY(1.02);
+	}
+	60% {
+		transform: scaleY(1);
+	}
+	80% {
+		transform: scaleY(1.01);
+	}
+	100% {
+		transform: scaleY(1);
+	}				
+	80% {
+		transform: scaleY(1);
+	}
+	100% {
+		transform: scaleY(1);
+	}							
+}
+
+@-webkit-keyframes pullDown {
+	0% {
+		-webkit-transform: scaleY(0);
+	}
+	40% {
+		-webkit-transform: scaleY(1);
+	}
+	60% {
+		-webkit-transform: scaleY(1);
+	}
+	80% {
+		-webkit-transform: scaleY(1);
+	}
+	100% {
+		-webkit-transform: scaleY(1);
+	}
+    80% {
+		-webkit-transform: scaleY(1);
+	}
+	100% {
+		-webkit-transform: scaleY(1);
+	}
 }
