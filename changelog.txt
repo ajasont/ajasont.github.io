@@ -1,18 +1,36 @@
 ****************************
+
 Change Log for andyjtran.com
+
+
+****************************
+
+25 May 2014: Updated homepage to new format.
+
 
 ****************************
 
 10 September 2013: Updated homepage animation, added picture boxes to projects page
+
 7 September 2013: Added animations to homepage and about and standard header to all Tier 2 pages
+
 6 September 2013: Design changes to homepage
+
 5 September 2013: Made W3C compliant and updated design of homepage
+
 2 September 2013: Restructured header and added styling to, updated content on, and renamed multiple pages
 
+
 ****************************
+
 30 August 2013: Added a 'placeholder' pdf and replaced 'documentation' page with change log
+
 27 August 2013: Removed '.html' extension from URL of linked pages
+
 26 August 2013: Added an 'about' page, a 'documentation' page and updated content and design on home page
+
 25 August 2013: Added CSS styling and an under construction image to home page
+
 24 August 2013: Added a 'test' page, a 'playground' page and corrected spelling error on home page
+
 18 August 2013: Added home page and custom 404 page
