@@ -2,7 +2,6 @@
 
 Change Log for andyjtran.com
 
-
 ****************************
 
 25 May 2014: Updated homepage to new format.
