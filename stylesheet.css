@@ -2,7 +2,7 @@ html, body {
     margin:0;
     padding:0;
     height:100%;
-    font-family: Carme, sans-serif;
+    font-family: Helvetica, 'Istok Web', sans-serif;
 }
 
 a:link, a:visited{
@@ -25,7 +25,6 @@ ul{
 #header {
     height:2em;
     padding:0.375em;
-    color: #FFFFFF;
     text-align: center;
 }
 
@@ -52,6 +51,10 @@ ul{
 	text-transform:uppercase;
 	}	
 
+#footer{
+    font-family: Georgia
+}
+
 .nav{
 	font-size:1.5em;
 	text-align:left;
@@ -64,11 +67,7 @@ ul{
 	padding:1em;
 	}
 
-.nav li em{
-	font-size:0.5em;
-	display:block;
-	font-family:Georgia, serif;
-	}
+
 /*  Navigation Sidebar End */
 
 #content{
