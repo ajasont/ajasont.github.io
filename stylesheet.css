@@ -5,6 +5,10 @@ html, body {
     font-family: Helvetica, 'Istok Web', sans-serif;
 }
 
+p{
+    text-indent: 25px;
+}
+
 a:link, a:visited{
 	text-decoration:none;
 	color:#000000;
