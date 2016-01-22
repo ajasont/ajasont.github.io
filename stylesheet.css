@@ -7,6 +7,7 @@ html, body {
 
 p{
     text-indent: 25px;
+    margin-top: 0px;
 }
 
 a:link, a:visited{
@@ -19,6 +20,10 @@ a:hover{
 	}	
 ul{
     list-style: none;
+}
+
+li{
+    list-style-type: circle;
 }
 #container {
     height: 100%;
