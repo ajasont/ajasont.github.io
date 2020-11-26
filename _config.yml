@@ -6,7 +6,13 @@ description: > # this means to ignore newlines until "show_excerpts:"
   This is Andy Tran's personal website. The good, the bad, and the dumb opinions
   expressed do not reflect employer's views and are not on employer's behalf.
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: true # set to true to show excerpts on the homepage
+
+defaults:
+  - scope:
+      path: "assets/img/"
+    values:
+      image: true
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
